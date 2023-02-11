@@ -39,7 +39,20 @@ Repo: [https://github.com/dmorosinotto/XE_Deno](https://github.com/dmorosinotto/
 -   Sottolineare che è stato sviluppato da Ryan Dahl, il creatore di Node.js
 -   Spiegare che è stato creato per risolvere alcuni dei problemi che si sono verificati con Node.js
 
+--
+
 Deno è un runtime JavaScript e TypeScript open source basato sul server, sviluppato da Ryan Dahl, il creatore di Node.js. È stato lanciato nel maggio 2020 ed è caratterizzato da una maggiore sicurezza, una maggiore facilità d'uso e una maggiore integrazione delle funzionalità rispetto a Node.js.
+
+![Tagline](slides/intro_00-tagline.png)
+![WhatIs](slides/intro_01-whatis.png)
+![Single Exe](slides/intro_01-single-exe.png)
+![Install CLI](slides/intro_03-deno-install.png)
+
+--
+
+![Timeline](slides/intro_02-timeline.png)
+![Short History](slides/intro_02-history.png)
+[Storia Versioni](history/history.md)
 
 ---
 
@@ -48,7 +61,23 @@ Deno è un runtime JavaScript e TypeScript open source basato sul server, svilup
 Confronto con Node.js: differenze fondamentali e miglioramenti
 
 -   Mostrare le principali differenze tra Deno e Node.js
--   Sottolineare i miglioramenti apportati da Deno rispetto a Node.js, come ad esempio la sicurezza, la facilità d'uso e l'integrazione delle funzionalità
+-   Solo ESModule, run url, deps, importmap, typescript OOTBox
+-   Sottolineare i miglioramenti apportati da Deno rispetto a Node.js come ad esempio la facilità d'uso: Typescript , run url, gestione dipendenze, sicurezza, integrazione funzionalità/tool...
+
+--
+
+![Deno vs Node](slides/node_01-main-vs.png)
+![Growth stars](slides/node_02-growth.png)
+![Core tech comparison](slides/node_03-core-tech-comparison.png)
+![Tools comparison](slides/node_04-tools-comparison.png)
+[Architectura RUST+V8](architecture/architecture.md)
+
+--
+
+![Notable Features](slides/feat_00-.png)
+![Typescript out of the box](slides/feat_01-typescript.png)
+![Typescript support](slides/feat_01-typescript-support.png)
+![run url](slides/run_00-deno-run.png)
 
 ---
 
@@ -61,14 +90,27 @@ Caratteristiche di Deno: sicurezza, facilità d'uso, integrazione delle funziona
 -   Discutere l'integrazione delle funzionalità di Deno, come ad esempio la capacità di eseguire sia JavaScript che TypeScript
 -   Aderenza a _Web Standard_
 
----
+--
+
+![Secure Execution](slides/feat_03-secure-exec.png)
+![Secure Prompt](slides/feat_03-secure-prompt.png)
+![Secure Permissions](slides/feat_03-secure-permissions.png)
+
+--
 
 # 4. RUN CODE WITH DENO
 
 Modalità di esecuzione del codice in Deno
 
 -   Mostrare come eseguire codice in Deno direttamente dal terminale
--   Discutere le opzioni disponibili per l'esecuzione di codice, come ad esempio l'esecuzione di file o l'esecuzione di codice in linea
+-   Discutere le opzioni disponibili per l'esecuzione di codice, come ad esempio l'esecuzione di file o l'esecuzione di codice in repl o direttamente da url
+
+--
+
+![run url](slides/run_00-deno-run.png)
+![deps management](slides/run_01-deps.png)
+![importmap](slides/run_02-link-url.png)
+![std lib](slides/run_03-std-lib.png)
 
 ---
 
@@ -79,6 +121,13 @@ Gestione delle dipendenze e dei pacchetti in Deno
 -   Discutere come gestire le dipendenze in Deno, ad esempio tramite URL
 -   Sottolineare che non esiste un registro centrale come NPM per i pacchetti
 
+--
+
+![lib std](slides/libs_02-deno-std.png)
+![deno docs](slides/libs_03-deno-docs.png)
+![deno docs](slides/libs_03-std.png)
+![deno docs](slides/libs_04-denolandx.png)
+
 ---
 
 # 6. DEMO ESEMPI
@@ -87,6 +136,11 @@ Esempi di codice in Deno
 
 -   Mostrare alcuni esempi di codice Deno per mostrare come utilizzare le funzionalità di base
 -   Discutere i casi d'uso più comuni per Deno, come ad esempio lo sviluppo di API e la creazione di tool per la riga di comando
+
+![DEMO Fetch + Magenta](slides/demo-01-fetch+magenta.png)
+![DEMO Fetch - Magenta](slides/demo-01-fetch-magenta.png)
+![DEMO serve](slides/demo_02-http-serve.png)
+![DEMO helloworld](slides/demo_02-hello-world.png)
 
 --
 
@@ -113,6 +167,26 @@ Strumenti e librerie disponibili in Deno
 -   Discutere come questi strumenti e librerie possono aiutare nello sviluppo (vedi Oak)
 -   Integrazione _NPM_ e _Node standard_
 
+--
+
+![CLI command tools](slides/feat_04-cli-tools.png)
+![CLI tools](slides/feat_04-builtin-tools.png)
+
+--
+
+![Standard lib](slides/libs_03-std.png)
+![deno std site](slides/run_01-deno-std-lib.png)
+
+--
+
+![deno doc site](slides/libs_03-deno-docs.png)
+![Deno land X](slides/libs_04-denolandx.png)
+
+--
+
+![NPM package](slides/libs_05-npm-package.png)
+![Node compat](slides/libs_05-node-compat.png)
+
 ---
 
 # 8. FUTURE OF DENO
@@ -134,6 +208,10 @@ Il futuro di Deno sembra molto promettente, con una comunità attiva e in cresci
 Vedi ultimi rilasci concentrati a semplificare **compatibilità con Node** e integrazione **pacchetti npm**
 
 --
+![deno deploy](slides/next_01-deploy.png)
+![company](slides/next_03-company.png)
+![deploy](slides/next_01-denodeploy.png)
+![future](slides/next_02-future.png)
 
 ## Idea: Javascript Container
 
