@@ -45,6 +45,7 @@ Deno è un runtime JavaScript e TypeScript open source basato sul server, svilup
 
 ![Tagline](slides/intro_00-tagline.png)
 ![WhatIs](slides/intro_01-whatis.png)
+![WhatIs ALL](slides/intro_01-whatis-ALL.png)
 ![Single Exe](slides/intro_01-single-exe.png)
 ![Install CLI](slides/intro_03-deno-install.png)
 
@@ -125,8 +126,15 @@ Gestione delle dipendenze e dei pacchetti in Deno
 
 ![lib std](slides/libs_02-deno-std.png)
 ![deno docs](slides/libs_03-deno-docs.png)
-![deno docs](slides/libs_03-std.png)
-![deno docs](slides/libs_04-denolandx.png)
+![auto gen docs](slides/libs_03-deno-doc-auto.png)
+![deno std](slides/libs_03-std.png)
+![deno land x](slides/libs_04-denolandx.png)
+![push to deno land](slides/libs_04-push-deno-land.png)
+![deno fmt & lint](slides/libs_06-deno-fmt-lint.png)
+![deno test](slides/libs_06-deno-test.png)
+![publish NPM](slides/libs_07-publish-npm.png)
+![using DNT](slides/libs_07-using-DNT.png)
+[DEMO esempio LIB Deno -> NPM](publish/publish.md)
 
 ---
 
@@ -137,6 +145,7 @@ Esempi di codice in Deno
 -   Mostrare alcuni esempi di codice Deno per mostrare come utilizzare le funzionalità di base
 -   Discutere i casi d'uso più comuni per Deno, come ad esempio lo sviluppo di API e la creazione di tool per la riga di comando
 
+![DEMO setup VSCode](slides/demo_00-setup-VSCode.png)
 ![DEMO Fetch + Magenta](slides/demo-01-fetch+magenta.png)
 ![DEMO Fetch - Magenta](slides/demo-01-fetch-magenta.png)
 ![DEMO serve](slides/demo_02-http-serve.png)
