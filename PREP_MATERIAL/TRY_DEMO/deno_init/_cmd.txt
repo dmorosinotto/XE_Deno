@@ -1,0 +1,13 @@
+# DOCS: https://deno.land/manual@v1.30.3/tools/init
+
+deno init
+
+ls -la
+deno run main.ts
+deno task dev
+
+deno task
+deno test
+deno bench
+deno doc main.ts
+deno doc main.ts --json

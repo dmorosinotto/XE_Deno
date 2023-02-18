@@ -1,0 +1,8 @@
+# DOCS: https://esm.sh/#cli
+
+deno run -A -r https://esm.sh init
+deno task esm:add mssql
+
+deno task esm:add react@17.0.2
+deno task esm:update react react-dom
+deno task esm:remove react

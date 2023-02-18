@@ -274,6 +274,20 @@ Deno + Vite bel video da provare https://youtu.be/MRDV6O7YAtQ
 Esempio come usare tRPC serverside (in falstify) + ZOD per validazione <-> clienside in Angular https://angularexperts.io/blog/angular-trpc + documentazione tRPC per usare adapter fetch che permette di usare tRPC + zod su progetto Deno deploy https://trpc.io/docs/fetch repo esempio https://github.com/trpc/trpc/tree/main/examples/deno-deploy
 Bella serie di Esempi uso DENO commentati e provabili come url (potrei usarne alcuni x le DEMO) https://examples.deno.land oppure anche questi vanno bene https://deno.land/manual@v1.30.0/examples
 Modo per limitare CPU usate in .NET CORE https://learn.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/runtime/thread-useallcpugroups-element
+Fights articolo che mostra come fare risposte tipo ChatGPT usando Supabase + function su Deno x ricerca vector similarity https://supabase.com/blog/openai-embeddings-postgres-vector
+Sito per controllare se lib pubblicata su npm ha package.json fatto bene https://publint.dev
+Bell’esempio che mostra come usare PRISMA per accesso DB con Postgress + API crud in Oak https://deno.land/manual@v1.30.3/node/how_to_with_npm/prisma  + guida Prisma con Deno deploy https://www.prisma.io/docs/guides/deployment/deployment-guides/deploying-to-deno-deploy
+Provare questa guida che mostra come fare APP Vue che usa API fatta in Deno (capire se mette insieme server side della pagina e dove si incastra) e casomai usare esempio API Oak come base per mostrare CRUD (casomai aggiungere anche ZOD per verifica dai) https://deno.land/manual@v1.30.3/node/how_to_with_npm/vue
+Bel video su Dino Deploy https://youtu.be/G_2AgdgEbkI
+Bella discussione + demo su come usare NPM + qualche weird case commonJS https://youtu.be/eRs_MGdCXGU
+Video che mostra come farsi runtimeJs a partire da rust crate di deno https://www.youtube.com/live/-8L3_OOeENo?feature=share l’articolo codice https://github.com/denoland/roll-your-own-javascript-runtime
+Esempio API crud + jwt con oak GitHub - 22mahmoud/deno_crud_jwt: 🦕 basic jwt implementation with CRUD operations using deno + postgres
+Come usare Redis client compilato in WASM (solo 700Kb) https://github.com/WasmEdge/wasmedge-db-examples/tree/main/redis
+Sito per testare se pacchetto NPM è fatto bene (pubblicato come ESM) https://publint.dev
+ Come compilare Rust -> WASM https://surma.dev/things/rust-to-webassembly/
+Come usare zod coerce/parse x trasformare querystring o route params in oggetto valido https://timdeschryver.dev/blog/get-easy-access-to-angular-route-and-query-parameters-with-zod
+Bellissimo articolo sul perché usare Deno (per scripting/Cli e universali ) https://matklad.github.io/2023/02/12/a-love-letter-to-deno.html
+Polyscale servizio cache distribuita x Postgres/Supabase x ottimizzare accesso dati on the Edge con deno deploy https://youtu.be/F505n0d9iuA
 
 ---
 

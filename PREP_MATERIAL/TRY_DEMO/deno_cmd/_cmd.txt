@@ -1,0 +1,19 @@
+# DOCS: https://deno.land/manual@v1.30.3/tools
+
+deno bundle https://deno.land/std@0.177.0/http/file_server.ts bundle.js
+more bundle.js
+
+deno install --allow-net --allow-read  https://deno.land/std@0.177.0/http/file_server.ts
+which file_server
+deno install --allow-net --allow-read -n serve https://deno.land/std@0.177.0/http/file_server.ts
+deno uninstall serve
+
+deno compile --output=compiled --allow-read --allow-net https://deno.land/std/http/file_server.ts -p 8080
+./compiled --help
+./compiled -p 4000
+
+deno info https://deno.land/std/http/file_server.ts
+deno vendor --import-map=vender/import_map.json  https://deno.land/std/http/file_server.ts
+ls -la vendor
+more vendor/import_map.json
+deno run --no-remote --import-map=vendor/import_map.json ./vendor/deno.land/std\@0.177.0/http/file_server.ts 
